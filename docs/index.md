@@ -4,14 +4,14 @@ The Vulgar Application Stack is an attempt to identify a "best choice" combinati
 
 VAS is fundamentally technology agnostic. Whatever combination the community judges best meets the stated principles at a given point in time is the VAS stack. As a consequence, it's appropriate to understand the major versions of VAS as each defining a distinct stack, with VAS itself being a ruleset by which these stacks are generated.
 
-VAS differs in another aspect in that classic stacks focus more or less exclusively on runtime technologies. In contrast, VAS addresses the whole development cycle and inculdes development, testing, and deploy technologies alongside the standard backend+DB+UI bits.
+VAS differs in another aspect in that classic stacks focus more or less exclusively on runtime technologies. In contrast, VAS addresses the whole development cycle and includes development, testing, and deploy technologies alongside the standard backend+DB+UI bits.
+
+Refer to the current [Stack Components](./Stack_Components) for the concrete functions and technologies covered in this version.
 
 ## Scope
 
-At the highest level, scope is divided between development, testing, deploy, and runtime concerns. Essentially, VAS defines everything between . One one side, VAS is bounded by product management and architecture, and on the other side by customer support.
+At the highest level, scope is divided between development, testing, deploy, and runtime concerns. Essentially, VAS defines everything necessary to deliver final code to production. The Product Specification and Product Plan are the inputs to VAS and the output is the code running in production.
 
+![Overview graph of VAS scope. Shows "Development", "QA", and "Production/Ops" within the VAS coverage area. "Product Management", "Customer Support", and "Architecture" are shows as interfacing directly with, but outside of VAS. ](https://docs.google.com/drawings/d/e/2PACX-1vTfVTfE9dsBq623RIjICUKlXEey8NCVxa3M9cEIKjXvs4V5ksZ5HkHUvJWO3jEumCuwdf1EQUYxr04q/pub?w=860&h=625)
 
-
-First, VAS is technology agnostic. At any given point in time, VAS recommends a concrete combination of technologies, but unlike traditional stacks, the technologies change over time.
-
-Second, VAS explicitly the principles by which the technologies are chosen. The principles, as well as the scope, are themselves are subject to change, though generally at a much slower rate than the technology stack.
+## Principles
