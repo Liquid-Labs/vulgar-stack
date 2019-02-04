@@ -1,0 +1,21 @@
+{
+  "name": "@liquid-labs/vulgar-stack",
+  "version": "0.0.1",
+  "description": "The best stack for most developers to use most of the time.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liquid-Labs/vulgar-stack.git"
+  },
+  "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liquid-Labs/vulgar-stack/issues"
+  },
+  "homepage": "https://github.com/Liquid-Labs/vulgar-stack#readme"
+}

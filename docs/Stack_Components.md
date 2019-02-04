@@ -1,4 +1,6 @@
-# General IT
+# Stack Components
+
+## General IT
 
 * Version control : git
 * Issue manager : GitHub issues
@@ -29,8 +31,12 @@
 * Application server : Google App Engine
 * Backend language : Golang
 * Frontend : React
-  * Redux
-  * Catalyst Core
+  * Redux (deprecated after hooks)
+  * Catalyst Core UI
   * Material UI
   * Material Design Standards
 * Mobile : React Native
+
+## API
+
+* Format : [Vulgar Rest](./Vuglar_REST.md)
