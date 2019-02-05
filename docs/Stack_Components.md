@@ -40,3 +40,7 @@
 ## API
 
 * Format : [Vulgar Rest](./Vuglar_REST.md)
+
+## Testing
+
+* [testify](https://github.com/stretchr/testify)
